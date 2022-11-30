@@ -1,1 +1,2 @@
-shell basic pwd
+#!/usr/bin/env bash
+shell basic
