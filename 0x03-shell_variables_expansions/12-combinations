@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' {a..z}{a..n,p,q,r,s,t,u,v,w,x,y,z}
+printf %sn "${{a..z}{a..z}[@]/%oo/}"
